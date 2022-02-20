@@ -1,0 +1,30 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/logo
+ * -----------------------------------------------------------------------------
+ */
+
+.logo {
+  display: block;
+  height: 30px;
+  margin-top: $space-11x;
+  text-decoration: none;
+  width: 220px;
+
+  svg {
+    @extend %is-responsive;
+  }
+
+  @include bp-md() {
+    margin-top: $space-16x;
+    height: auto;
+    max-width: 380px;
+    width: 100%;
+  }
+
+
+  @include bp-xl() {
+    margin-left: $space-12x;
+  }
+}
+

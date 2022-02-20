@@ -1,0 +1,1 @@
+<a href="mailto:{{$email}}" title="{{$email}}" target="_blank">{{$email}}</a>

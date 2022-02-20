@@ -1,0 +1,117 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/grid
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+%grid,
+.grid {
+  display: grid;
+}
+
+%grid-2x1,
+.grid-2x1 {
+  @include bp-sm() {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-column-gap: $space-4x;
+  }
+
+  @include bp-md() {
+    grid-template-columns: repeat(2, 380px);
+  }
+
+}
+
+%grid-3x1,
+.grid-3x1 {
+
+  @include bp-lg() {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-column-gap: $space-4x;
+    margin-left: 152px;
+  }
+
+  @include bp-xl() {
+    margin-left: 196px;
+    padding-top: 132px;
+  }
+}
+
+
+
+// Grids 1 - 16
+@for $i from 1 through 14 {
+  %grid-cols-#{$i},
+  .grid-cols-#{$i} {
+    @include bp-md() {
+      display: grid;
+      grid-template-columns: repeat($i, minmax(0, 1fr));
+      grid-column-gap: $space-4x;
+    }
+  }
+}
+
+// Grids without columns
+%grid-cols-none,
+.grid-cols-none {
+  grid-template-columns: none;
+}
+
+// Grids without gap
+%grid-gap-none {
+  grid-column-gap: 0;
+}
+
+// Grid column spans (1 - 14)
+@for $i from 1 through 14 {
+  %span-#{$i},
+  .span-#{$i} {
+    grid-column: span $i / span $i;
+  }
+}
+
+@for $i from 1 through 14 {
+  %lg\:span-#{$i},
+  .lg\:span-#{$i} {
+    @include bp-lg() {
+      grid-column: span $i / span $i;
+    }
+  }
+}
+
+@for $i from 1 through 14 {
+  %xl\:span-#{$i},
+  .xl\:span-#{$i} {
+    @include bp-xl() {
+      grid-column: span $i / span $i;
+    }
+  }
+}
+
+
+%span-full,
+.span-full	{
+  grid-column: 1 / -1;
+}
+
+// Grid column start position
+@for $i from 1 through 14 {
+  %start-#{$i},
+  .start-#{$i} {
+    grid-column-start: $i !important;
+  }
+}
+
+// Grid column end position
+@for $i from 1 through 14 {
+  %end-#{$i},
+  .end-#{$i} {
+    grid-column-end: $i;
+  }
+}
+
+
+

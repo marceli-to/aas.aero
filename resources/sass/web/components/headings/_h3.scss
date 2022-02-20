@@ -1,0 +1,13 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: component/headings/h3
+ * -----------------------------------------------------------------------------
+ */
+
+h3 {
+  color: $color-blue;
+  @include font-medium();
+  @include font-size($fs-sm);
+  margin: 0;
+  text-transform: uppercase;
+}

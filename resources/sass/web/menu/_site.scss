@@ -1,0 +1,120 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/menu/site
+ * -----------------------------------------------------------------------------
+ */
+
+nav.site-menu {
+  background-color: $color-white;
+  height: calc(100% - #{$header-height});
+  right: 0;
+  position: fixed;
+  top: $header-height;
+  transform: translate(180px,0);
+  transition: transform .16s ease-out;
+  width: 180px;
+  z-index: 401;
+
+  &.is-visible {
+    transform: translate(0,0);
+    transition: transform .16s ease-out;
+  }
+
+  ul {
+    margin-top: -14px;
+  }
+
+  li {
+    display: block;
+    text-align: right;
+
+    &.language-switcher {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: $space-4x;
+
+      @include bp-md() {
+        align-items: flex-start;
+        justify-content: space-between;
+        order: -1;
+        padding-right: 0;
+        margin-right: $space-8x;
+      }
+
+      a {
+        @include font-regular();
+        padding: $space-3x 0;
+        @include bp-md() {
+          padding: 0;
+        }
+      }
+      em {
+        display: block;
+        @include font-regular();
+        line-height: 1 !important;
+        margin: 0 $space-1x;
+        @include bp-md() {
+          margin-top: -1px;
+        }
+      }
+    }
+  }
+
+  a {
+    color: $color-black;
+    display: block;
+    @include font-medium();
+    @include font-size($fs-xs);
+    line-height: 1 !important;
+    padding: $space-3x $space-4x $space-3x 0;
+    text-align: right;
+    text-transform: uppercase;
+    transition: color .12s ease-in;
+
+    &.is-active,
+    &:hover {
+      color: $color-blue;
+    }
+  }
+
+  @include bp-md() {
+    background-color: transparent;
+    display: flex;
+    margin-top: $space-8x;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 88px;
+    transform: translate(0,0);
+    right: auto;
+    top: auto;
+    width: calc(100% - 500px);
+
+    ul {
+      margin-top: - $space-1x;
+      display: flex;
+    }
+
+    li {
+      margin-right: $space-5x;
+
+      // without language switcher
+      &:last-child() {
+        margin-right: 0;
+      }
+      // with language switcher
+      // &:nth-last-child(2) {
+      //   margin-right: 0;
+      // }
+    }
+
+    a {
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+  @include bp-xl() {
+    width: calc(100% - 640px);
+  }
+}

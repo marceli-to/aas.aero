@@ -1,0 +1,59 @@
+
+.video-container {
+  height: auto;
+  position: relative;
+  width: 100%;
+
+  @include bp-md() {
+    height: calc(100vh - #{$header-height-sm});
+    z-index: 101;
+  }
+
+  video {
+    display: block;
+    height: auto;
+    width: 100%;
+
+    @include bp-md() {
+      object-fit: cover;
+      width: 100vw;
+      height: calc(100vh - #{$header-height-sm});
+      position: fixed;
+      top: $header-height-sm;
+      left: 0;
+    }
+  }
+}
+
+// Theater mode for mobile
+@include bp-landscape() {
+
+  // Remove spacing
+  main.site {
+    padding-top: 0 !important;
+  }
+
+  // Hide elements
+  .site-header,
+  .social-media {
+    display: none;
+  }
+  
+  .slogan {
+    color: $color-white !important;
+    display: none;
+  }
+
+  // Fullscreen for video
+  .video-container {
+    video {
+      object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+

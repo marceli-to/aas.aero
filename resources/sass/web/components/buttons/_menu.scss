@@ -1,0 +1,43 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/buttons/menu
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-menu,
+.btn-menu-close {
+  @extend %btn;
+  height: 24px;
+  margin-top: $space-12x;
+  position: relative;
+  width: 24px;
+  
+  svg {
+    @extend %is-responsive;
+    &.cross {
+      display: none;
+    }
+  }
+
+  &.is-active {
+    height: 20px;
+    width: 20px;
+    right: 2px;
+    top: -2px;
+
+    svg {
+
+      &.cross {
+        display: block;
+      }
+
+      &.burger {
+        display: none;
+      }
+    }
+  }
+
+  @include bp-md() {
+    display: none;
+  }
+}

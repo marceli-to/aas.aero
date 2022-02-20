@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/main
+ * -----------------------------------------------------------------------------
+ */
+
+main.site {
+  padding-top: $header-height;
+  position: relative;
+  @include bp-md() {
+    padding-top: $header-height-sm;
+  }
+
+  > section {
+    @extend %inner-block;
+  }
+}
