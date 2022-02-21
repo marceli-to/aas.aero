@@ -1,8 +1,6 @@
 <div class="addresses">
   <div class="address__type">
-    <div>
-      <h3>Technics</h3>
-    </div>
+    <h3>Technics</h3>
   </div>
   <div class="address__items">
     <x-address>

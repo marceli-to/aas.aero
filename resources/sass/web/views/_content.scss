@@ -126,46 +126,16 @@
   @extend %grid-cols-14;
 
   .address__type {
-    @extend %span-full;
-    margin-bottom: $space-6x;
-    position: sticky; 
-    top: 176px;
+    @extend %span-3;
 
-    @include bp-md() {
-      margin-bottom: 0;
-      top: 220px;
+    h3 {
+      margin-bottom: $space-6x;
     }
-
-    > div {
-      @extend %span-4;
-      @extend %lg\:span-3;
-    }
-
   }
 
   .address__items {
     @extend %start-4;
     @extend %span-8;
-    @extend %lg\:span-8;
-
-    @include bp-md() {
-      margin-top: -20px;
-    }
-
-    &.is-first {
-      margin-top: 0;
-
-      @include bp-xl() {
-        margin-top: -20px;
-      }
-    }
-    // @include bp-md() {
-    //   margin-top: -20px;
-
-    //   &.is-first {
-    //     margin-top: 0;
-    //   }
-    // }
 
     .item {
       @extend %grid-cols-8;
@@ -173,14 +143,17 @@
       margin-bottom: 68px;
       padding-top: 20px; 
 
+      @include bp-md() {
+        margin-top: 4px;
+      }
+
+
       .item__title {
         @extend %span-3;
-        @extend %lg\:span-3;
       }
 
       .item__content {
         @extend %span-5;
-        @extend %lg\:span-5;
       }
     }
   }

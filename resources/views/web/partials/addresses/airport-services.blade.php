@@ -1,10 +1,8 @@
 <div class="addresses">
   <div class="address__type">
-    <div>
-      <h3>Airport Services</h3>
-    </div>
+    <h3>Airport Services</h3>
   </div>
-  <div class="address__items is-first">
+  <div class="address__items">
     <x-address>
       <x-slot name="title">ZRH</x-slot>
       <x-slot name="content">
