@@ -20,6 +20,9 @@
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta name="format-detection" content="telephone=no">
 <link href="{{ mix('assets/css/app.css') }}" type="text/css" rel="stylesheet" />
+@if (request()->routeIs('page.career'))
+<link rel="stylesheet" href="/assets/css/swiper.css" />
+@endif
 <script src="/assets/js/modernizr.min.js"></script>
 </head>
 <body>

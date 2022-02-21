@@ -5,5 +5,5 @@ require('./bootstrap');
 
 // Modules
 require('./modules/menu.js');
-// require('./modules/video.js');
+require('./modules/swiper.js');
 

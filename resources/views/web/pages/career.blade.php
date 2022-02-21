@@ -2,6 +2,23 @@
 @section('seo_title', 'Career')
 @section('content')
 <main role="main" class="site">
+  <div class="swiper js-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/assets/img/aas-aero-01.jpg" height="800" width="1200">
+      </div>
+      <div class="swiper-slide">
+        <img src="/assets/img/aas-aero-02.jpg" height="800" width="1200">
+      </div>
+      <div class="swiper-slide">
+        <img src="/assets/img/aas-aero-03.jpg" height="800" width="1200">
+      </div>
+      <div class="swiper-slide">
+        <img src="/assets/img/aas-aero-04.jpg" height="800" width="1200">
+      </div>
+    </div>
+  </div>
+
   <section>
     <div class="content" style="translateZ(0);">
       <div class="career">

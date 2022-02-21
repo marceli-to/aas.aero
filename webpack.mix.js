@@ -26,8 +26,8 @@ mix.webpackConfig({
 // Web
 mix.sass('resources/sass/web/app.scss', 'public/assets/css/app.css').options({processCssUrls: false}).version();
 mix.js('resources/js/web/app.js', 'public/assets/js/app.js');
-      
+
 // Dashboard
-mix.js('resources/js/dashboard/app.js', 'public/assets/dashboard/js/bundle.administration.js').version();
-mix.sass('resources/sass/dashboard/app.scss', 'public/assets/dashboard/css/app.css').options({processCssUrls: false}).version();
+// mix.js('resources/js/dashboard/app.js', 'public/assets/dashboard/js/bundle.administration.js').version();
+// mix.sass('resources/sass/dashboard/app.scss', 'public/assets/dashboard/css/app.css').options({processCssUrls: false}).version();
 
