@@ -148,8 +148,12 @@
     @extend %span-8;
     @extend %lg\:span-8;
 
-    @include bp-xl() {
+    @include bp-lg() {
       margin-top: -20px;
+
+      &.is-first {
+        margin-top: 0;
+      }
     }
 
     .item {

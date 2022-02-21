@@ -4,7 +4,7 @@
       <h3>Entities</h3>
     </div>
   </div>
-  <div class="address__items">
+  <div class="address__items is-first">
     <x-address>
       <x-slot name="title">CH</x-slot>
       <x-slot name="content">
