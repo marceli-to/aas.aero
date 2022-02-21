@@ -20,6 +20,13 @@
       </x-slot>
     </x-address>
     <x-address>
+      <x-slot name="title">PMI</x-slot>
+      <x-slot name="content">
+        <p><strong>Sales</strong><br><x-mailto email="pmi@aas.aero" /></p>
+        <p>Via Roma, 5, piso – 2a<br>ES-07012 Palma De Mallorca <br><x-mailto email="pmi@aas.aero" /></p>
+      </x-slot>
+    </x-address>
+    <x-address>
       <x-slot name="title">HAM</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
@@ -31,13 +38,6 @@
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p><strong>Lost + Found</strong><br><x-mailto email="dus@aas.aero" /></p>
-      </x-slot>
-    </x-address>
-    <x-address>
-      <x-slot name="title">PMI</x-slot>
-      <x-slot name="content">
-        <p><strong>Sales</strong><br><x-mailto email="pmi@aas.aero" /></p>
-        <p>Via Roma, 5, piso – 2a<br>ES-07012 Palma De Mallorca <br><x-mailto email="pmi@aas.aero" /></p>
       </x-slot>
     </x-address>
   </div>
