@@ -148,13 +148,24 @@
     @extend %span-8;
     @extend %lg\:span-8;
 
-    @include bp-lg() {
+    @include bp-md() {
       margin-top: -20px;
+    }
 
-      &.is-first {
-        margin-top: 0;
+    &.is-first {
+      margin-top: 0;
+
+      @include bp-xl() {
+        margin-top: -20px;
       }
     }
+    // @include bp-md() {
+    //   margin-top: -20px;
+
+    //   &.is-first {
+    //     margin-top: 0;
+    //   }
+    // }
 
     .item {
       @extend %grid-cols-8;
