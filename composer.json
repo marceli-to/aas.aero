@@ -20,6 +20,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "nesbot/carbon": "^2.37",
+        "spatie/laravel-export": "^0.3.9",
         "spatie/laravel-translatable": "^4.5",
         "stripe/stripe-php": "^7.52"
     },
