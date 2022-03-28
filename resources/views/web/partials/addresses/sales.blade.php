@@ -19,7 +19,7 @@
     <x-address>
       <x-slot name="content">
         <p><strong>AAS Corporate Services</strong></p>
-        <p><strong>Nevena Dragosavljevic</strong><br>Chief Communications Officer<br>+41 76 420 83 06<br><x-mailto email="n.dragosavljevic@aas.aero" /></p>
+        <p><strong>Nevena Dragosavljevic</strong><br>Chief Communications Officer<br>+41 76 420 83 06<br><x-mailto email="communication@aas.aero" /></p>
       </x-slot>
     </x-address>
   </div>
