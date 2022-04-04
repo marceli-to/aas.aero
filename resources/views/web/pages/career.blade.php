@@ -40,7 +40,6 @@
           <x-jobs>
             <x-slot name="title">HAM</x-slot>
             <x-slot name="content">
-              <p><strong>HSSQTE Group Support Officer (m/w/d)</strong><br>Vollzeit<br><a href="https://join.com/companies/aas/3919779-hssqte-group-support-officer-w-m-d-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>Lost & Found Agent (m/w/d)</strong><br>Vollzeit/Teilzeit (auch Split mit Check-In möglich)<br><a href="https://join.com/companies/aas/3920082-lost-und-found-agent-w-m-d-teilzeit-vollzeit-auch-split-mit-check-in-moeglich" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>Passenger Service Agent (m/w/d)</strong><br>Vollzeit/Teilzeit<br><a href="https://join.com/companies/aas/3903235-passenger-service-agent-w-m-d-teilzeit-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>Passenger Service Supervisor (m/w/d)</strong><br>Vollzeit/Teilzeit<br><a href="https://join.com/companies/aas/3920302-passenger-service-supervisor-w-m-d-vollzeit-teilzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
@@ -51,8 +50,6 @@
           <x-jobs>
             <x-slot name="title">DUS</x-slot>
             <x-slot name="content">
-              <p><strong>HSSQTE Manager Germany (m/w/d) </strong><br>Vollzeit<br><a href="https://join.com/companies/aas/3919780-hssqte-manager-germany-w-m-d-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
-              <p><strong>HSSQTE Officer Germany (m/w/d) </strong><br>Vollzeit<br><a href="https://join.com/companies/aas/3920618-hssqte-officer-germany-w-m-d-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>Head of Human Resources Germany (W/M/D) </strong><br>Vollzeit<br><a href="https://join.com/companies/aas/3919513-human-resources-manager-w-m-d-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>Lost & Found Agent (m/w/d)</strong><br>Vollzeit/Teilzeit (auch Split mit Check-In möglich)<br><a href="https://join.com/companies/aas/3920081-lost-und-found-agent-w-m-d-teilzeit-vollzeit-auch-split-mit-check-in-moeglich" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
               <p><strong>PMO / Project Manager (m/w/d)</strong><br>Vollzeit<br><a href="https://join.com/companies/aas/3937184-pmo-project-manager-w-m-d-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
