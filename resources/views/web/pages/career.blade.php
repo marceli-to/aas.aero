@@ -23,6 +23,11 @@
     <div class="content" style="translateZ(0);">
       <div class="career">
         <div class="career__items">
+          <h3>Wir suchen dich - Interessiert?</h3>
+          <p>Alle offenen Stellen bei der AAS findet ihr auf unserer Karriereseite unter https://join.com/companies/aas</p>
+          <p>Get on board with AAS! Wir freuen uns auf deine Bewerbung.</p>
+        </div>
+        {{-- <div class="career__items">
           <x-jobs>
             <x-slot name="title">ZRH</x-slot>
             <x-slot name="content">
@@ -59,7 +64,7 @@
               <p><strong>Ticket Service Agent (m/w/d)</strong><br>Vollzeit/Teilzeit<br><a href="https://join.com/companies/aas/3920333-ticket-service-agent-w-m-d-teilzeit-vollzeit" target="_blank" title="join.com/companies/aas">&gt; more information</a></p>
             </x-slot>
           </x-jobs>
-        </div>
+        </div> --}}
         <div class="career__info">
           <p><strong>Human Resources / Recruitment</strong><br>For questions or unsolicitated applications please contact:</p>
           <p><strong>ZRH Station</strong><br><x-mailto email="recruitment_zrh@aas.aero" /></p>
