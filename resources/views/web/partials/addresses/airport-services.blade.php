@@ -30,14 +30,32 @@
       <x-slot name="title">HAM</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
-        <p><strong>Lost + Found</strong><br><x-mailto email="ham@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br><x-mailto email="lostandfound_ham@aas.aero" /></p>
+        <p>
+          <strong>Airline Assistance Switzerland<br>
+          AAS Hamburg</strong><br>
+          Airport Hamburg, Terminal 1<br>
+          Abflugs Ebene<br>
+          Flughafenstr. 1-3<br>
+          22335 Hamburg<br>
+          <x-mailto email="ham@aas.aero" />
+        </p>
       </x-slot>
     </x-address>
     <x-address>
       <x-slot name="title">DUS</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
-        <p><strong>Lost + Found</strong><br><x-mailto email="dus@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br><x-mailto email="lostandfound_dus@aas.aero" /></p>
+        <p>
+          <strong>Airline Assistance Switzerland<br>
+          AAS Düsseldorf</strong><br>
+          Düsseldorf Flughafen<br>
+          Terminal A/B – Abflugsebene <br>
+          Raum ZGO 6.065<br>
+          40474 Düsseldorf<br>
+          <x-mailto email="dus@aas.aero" />
+        </p>
       </x-slot>
     </x-address>
   </div>
