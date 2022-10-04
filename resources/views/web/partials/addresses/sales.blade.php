@@ -6,7 +6,7 @@
     <x-address>
       <x-slot name="content">
         <p><strong>AAS Corporate Services</strong></p>
-        <p><strong>Erik Strandgren</strong><br>Chief Commercial Officer<br>+41 76 433 74 88<br><x-mailto email="e.strandgren@aas.aero" /></p>
+        <p><strong>Erik Strandgren</strong><br>Chief Commercial Officer<br><x-mailto email="e.strandgren@aas.aero" /></p>
       </x-slot>
     </x-address>
   </div>
