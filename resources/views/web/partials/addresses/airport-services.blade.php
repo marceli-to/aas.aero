@@ -26,6 +26,49 @@
         <p>Via Roma, 5, piso – 2a<br>ES-07012 Palma De Mallorca <br><x-mailto email="pmi@aas.aero" /></p>
       </x-slot>
     </x-address>
+
+
+    
+    
+
+    <x-address>
+      <x-slot name="title">BER</x-slot>
+      <x-slot name="content">
+        <p>
+          <strong>AeroGround Berlin GmbH</strong><br>
+          Terminal 1 – Lieferhof Süd<br>
+          Willy-Brandt-Platz 1<br>
+          12529 Berlin Schönefeld
+        </p>
+      </x-slot>
+    </x-address>
+    <x-address>
+      <x-slot name="title">FRA</x-slot>
+      <x-slot name="content">
+        <p>
+          <strong>AAS Frankfurt GmbH (i.G.)</strong><br>
+          THE SQUAIRE Business Center (5th floor)<br>
+          Am Flughafen 12<br>
+          60549 Frankfurt am Main
+        </p>
+      </x-slot>
+    </x-address>
+
+    <x-address>
+      <x-slot name="title">DUS</x-slot>
+      <x-slot name="content">
+        <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br><x-mailto email="lostandfound_dus@aas.aero" /></p>
+        <p>
+          <strong>Airline Assistance Switzerland GmbH<br>
+          AAS Düsseldorf</strong><br>
+          Düsseldorf Flughafen<br>
+          Terminal Ring 1<br>
+          40474 Düsseldorf<br>
+          <x-mailto email="dus@aas.aero" />
+        </p>
+      </x-slot>
+    </x-address>
     <x-address>
       <x-slot name="title">HAM</x-slot>
       <x-slot name="content">
@@ -42,21 +85,6 @@
         </p>
       </x-slot>
     </x-address>
-    <x-address>
-      <x-slot name="title">DUS</x-slot>
-      <x-slot name="content">
-        <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
-        <p><strong>Lost + Found</strong><br><x-mailto email="lostandfound_dus@aas.aero" /></p>
-        <p>
-          <strong>Airline Assistance Switzerland<br>
-          AAS Düsseldorf</strong><br>
-          Düsseldorf Flughafen<br>
-          Terminal A/B – Abflugsebene <br>
-          Raum ZGO 6.065<br>
-          40474 Düsseldorf<br>
-          <x-mailto email="dus@aas.aero" />
-        </p>
-      </x-slot>
-    </x-address>
+
   </div>
 </div>

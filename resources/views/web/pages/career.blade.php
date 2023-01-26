@@ -18,7 +18,6 @@
       </div>
     </div>
   </div>
-
   <section>
     <div class="content" style="translateZ(0);">
       <div class="career">
@@ -71,6 +70,8 @@
           <p><strong>VIE Station</strong><br><x-mailto email="recruitment_vie@aas.aero" /></p>
           <p><strong>DUS Station</strong><br><x-mailto email="recruitment_dus@aas.aero" /></p>
           <p><strong>HAM Station</strong><br><x-mailto email="recruitment_ham@aas.aero" /></p>
+          <p><strong>FRA Station</strong><br><x-mailto email="recruitment_fra@aas.aero" /></p>
+          <p><strong>BER Station</strong><br><x-mailto email="recruitment_ber@aas.aero" /></p>
         </div>
       </div>
     </div>
