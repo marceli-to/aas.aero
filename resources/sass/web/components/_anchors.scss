@@ -7,10 +7,12 @@
 
 %anchor,
 .anchor {
-  text-decoration: none;
+  color: $color-black;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   transition: color .1s ease-out;
   
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }

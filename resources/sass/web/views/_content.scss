@@ -83,35 +83,11 @@
     margin-left: 196px;
   }
 
-  // &.content--stations {
-  //   @extend %grid-2x1;
-
-  //   @include bp-xl() {
-  //     max-width: 900px;
-  //   }
-
-  //   > div {
-  //     margin-bottom: $space-18x;
-  //     &:last-of-type {
-  //       margin-bottom: 0;
-  //     }
-  //   }
-  // }
-
-  // &.content--management {
-  //   @extend %grid-3x1;
-  //   > div {
-  //     margin-bottom: $space-8x;
-  //     &:last-of-type {
-  //       margin-bottom: 0;
-  //     }
-  //   }
-  // }
   p {
     margin-bottom: $space-8x;
   }
 
-  a {
+  a:not(.anchor) {
     color: $color-black;
     text-decoration: none;
     transition: color .12s ease-in;
@@ -200,7 +176,11 @@
     @extend %start-11;
     @extend %span-5;
     @extend %lg\:span-5;
-    margin-top: -4px;
+    margin-top: $space-md;
+
+    @include bp-md() {
+      margin-top: -4px;
+    }
   }
 }
 
