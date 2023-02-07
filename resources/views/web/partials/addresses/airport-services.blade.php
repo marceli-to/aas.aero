@@ -6,6 +6,7 @@
     <x-address>
       <x-slot name="title">BER</x-slot>
       <x-slot name="content">
+        <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p>
           <strong>AAS Berlin GmbH</strong><br>
           Hugo-Eckener-Allee 9<br>12529 Schönefeld
@@ -15,6 +16,7 @@
     <x-address>
       <x-slot name="title">FRA</x-slot>
       <x-slot name="content">
+        <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p>
           <strong>AAS Frankfurt GmbH</strong><br>
           THE SQUAIRE Business Center<br>
@@ -55,7 +57,6 @@
         </p>
       </x-slot>
     </x-address>
-
     <x-address>
       <x-slot name="title">ZRH</x-slot>
       <x-slot name="content">
