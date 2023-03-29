@@ -9,7 +9,7 @@
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p>
           <strong>AAS Berlin GmbH</strong><br>
-          Hugo-Eckener-Allee 9<br>12529 Schönefeld
+          Hugo-Eckener-Allee 13<br>12529 Schönefeld
         </p>
       </x-slot>
     </x-address>
@@ -18,7 +18,7 @@
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p>
-          <strong>AAS Frankfurt GmbH</strong><br>
+          <strong>AAS Airport Services Frankfurt GmbH</strong><br>
           THE SQUAIRE Business Center<br>
           (5th floor)<br>
           Am Flughafen 12<br>
@@ -84,6 +84,5 @@
         <p><strong>Airline Assistance Switzerland Espana S.L.</strong><br>Via Roma 5 2 2<br>Palma 07012<br>Mallorca<br><x-mailto email="pmi@aas.aero" /></p>
       </x-slot>
     </x-address>
-
   </div>
 </div>
