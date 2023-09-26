@@ -19,6 +19,7 @@ Route::get('/home', 'PageController@index')->name('page.home');
 Route::get('/stations', 'PageController@stations')->name('page.stations');
 Route::get('/contacts', 'PageController@contacts')->name('page.contacts');
 Route::get('/career', 'PageController@career')->name('page.career');
+Route::get('/privacy-policy', 'PageController@privacy')->name('page.privacy');
 
 /*
 |--------------------------------------------------------------------------

@@ -52,4 +52,14 @@ class PageController extends BaseController
     return view($this->viewPath . 'career');
   }
 
+  /**
+   * Page: 'Privacy Policy'
+   * @return \Illuminate\Http\Response
+   */
+
+   public function privacy()
+   { 
+     return view($this->viewPath . 'privacy');
+   }
+
 }

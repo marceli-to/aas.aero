@@ -20,6 +20,7 @@
       <x-slot name="content">
         <p><strong>AAS Corporate Services</strong></p>
         <p><strong>Nevena Dragosavljevic</strong><br>Chief Communications Officer<br><x-mailto email="communication@aas.aero" /></p>
+        <p><a href="{{ route('page.privacy') }}" title="Privacy policy">Privacy policy</a>
       </x-slot>
     </x-address>
   </div>

@@ -7,6 +7,7 @@
       <x-slot name="title">BER</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br>+49 322 122 49 398 <br><x-mailto email="lostandfound_ber@aas.aero" /></p>
         <p>
           <strong>AAS Berlin GmbH</strong><br>
           Hugo-Eckener-Allee 13<br>12529 Schönefeld
@@ -61,7 +62,7 @@
       <x-slot name="title">ZRH</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
-        <p><strong>Lost + Found</strong><br>+41 43 816 54 22<br><x-mailto email="lostandfound@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br>+41 43 551 06 00<br><x-mailto email="lostandfound_zrh@aas.aero" /></p>
         <p>
           <strong>Airline Assistance Switzerland AG</strong><br>
           Flughafen Kloten<br>8058 Zürich-Airport<br><x-mailto email="zrh@aas.aero" />
@@ -72,7 +73,7 @@
       <x-slot name="title">VIE</x-slot>
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
-        <p><strong>Lost + Found</strong><br>+43 1 7007 335121<br><x-mailto email="lf_vie@aas.aero" /></p>
+        <p><strong>Lost + Found</strong><br>+43 720 117 566<br><x-mailto email="lostandfound_vie@aas.aero" /></p>
         <p><strong>Airline Assistance Switzerland AG</strong><br>Flughafen Kloten<br>8058 Zürich-Airport</p>
         <p>Branch address:<br>Objekt 670, 4. OG/<br>Postfach 1<br>A-1300 Wien-Flughafen<br><x-mailto email="vie@aas.aero" /></p>
       </x-slot>

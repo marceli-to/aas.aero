@@ -135,10 +135,12 @@
   }
 }
 
+.privacy,
 .career {
   @extend %grid-cols-14;
   margin-top: $space-1x;
 
+  .privacy__items,
   .career__items {
     @extend %span-9;
     @extend %xl\:span-9;
@@ -180,6 +182,21 @@
 
     @include bp-md() {
       margin-top: -4px;
+    }
+  }
+}
+
+.privacy {
+  ul {
+    margin: 0;
+    margin-bottom: $space-8x;
+    padding: 0;
+
+    li {
+      display: list-item;
+      list-style-type: disc;
+      margin-left: $space-6x;
+      margin-bottom: $space-3x;
     }
   }
 }
