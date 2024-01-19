@@ -23,7 +23,8 @@
       <div class="career">
         <div class="career__items">
           <h3>Wir suchen dich - Interessiert?</h3>
-          <p>Alle offenen Stellen bei der AAS findet ihr auf unserer Karriereseite unter <a href="https://join.com/companies/aas" target="_blank" class="anchor">https://join.com/companies/aas</a>.</p>
+          <p>Erfahre <a href="https://aas-career.aero" target="_blank" class="anchor">mehr</a> über die AAS. Alle offenen Stellen bei der AAS findest du <a href="https://join.com/companies/aas" target="_blank" class="anchor">hier</a>.</p>
+          {{-- <p>Alle offenen Stellen bei der AAS findet ihr auf unserer Karriereseite unter <a href="https://join.com/companies/aas" target="_blank" class="anchor">https://join.com/companies/aas</a>.</p> --}}
           <p>Get on board with AAS! Wir freuen uns auf deine Bewerbung.</p>
         </div>
         {{-- <div class="career__items">

@@ -10,7 +10,7 @@
         <p><strong>Lost + Found</strong><br>+49 322 122 49 398 <br><x-mailto email="lostandfound_ber@aas.aero" /></p>
         <p>
           <strong>AAS Berlin GmbH</strong><br>
-          Hugo-Eckener-Allee 13<br>12529 Schönefeld
+          Kienberger Allee<br>12529 Schönefeld
         </p>
       </x-slot>
     </x-address>
@@ -19,11 +19,8 @@
       <x-slot name="content">
         <p><strong>Sales</strong><br><x-mailto email="sales@aas.aero" /></p>
         <p>
-          <strong>AAS Airport Services Frankfurt GmbH</strong><br>
-          THE SQUAIRE Business Center<br>
-          (5th floor)<br>
-          Am Flughafen 12<br>
-          60549 Frankfurt am Main<br>
+          <strong>AAS Frankfurt GmbH</strong><br>
+          Frankfurt Airport Center, Bauteil B, Einheit 7.12<br>Hugo Eckener Ring<br>60549 Frankfurt am Main
         </p>
       </x-slot>
     </x-address>
