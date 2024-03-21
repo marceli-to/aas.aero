@@ -46,11 +46,7 @@
         <p><strong>Lost + Found</strong><br><x-mailto email="lostandfound_dus@aas.aero" /></p>
         <p>
           <strong>AAS Düssseldorf GmbH</strong><br>
-          Terminal Ring 1<br>
-          Zentralgebäude Ost<br>
-          6. Etage<br>
-          Raum ZG. 6.056<br>
-          40474 Düsseldorf<br>
+          Peter-Müller-Str. 20<br>40474 Düsseldorf<br>
           <x-mailto email="dus@aas.aero" />
         </p>
       </x-slot>
