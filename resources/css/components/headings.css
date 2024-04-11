@@ -1,0 +1,7 @@
+h1 {
+  @apply font-effra-medium font-medium mb-24
+}
+
+h2, h3 {
+  @apply font-effra-medium font-medium
+}

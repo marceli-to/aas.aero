@@ -1,0 +1,10 @@
+<div class="mb-40 sm:col-span-full lg:col-span-11 border-t border-t-black pt-20 grid grid-cols-8 gap-x-16">
+  <h2 class="mb-28 text-md lg:text-lg col-span-2 md:col-span-2 leading-none">
+    {{ country_code }}
+  </h2>
+  {{ if address }}
+    <div class="col-span-10 md:col-span-6">
+      {{ address }}
+    </div>
+  {{ /if }}
+</div>

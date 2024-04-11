@@ -1,0 +1,44 @@
+title: Section
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: elements
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        elements:
+          display: Elements
+          instructions: null
+          icon: null
+          sets:
+            location:
+              display: Location
+              instructions: null
+              icon: form-address-field
+              fields:
+                -
+                  import: location
+      type: replicator
+      display: Elements
+      icon: replicator
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

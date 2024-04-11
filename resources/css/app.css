@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "typo/webfonts.css";
+@import "components/headings.css";
+@import "utils.css";
+
+* {
+  font-variant-ligatures: none;
+}
+
+html {
+  font-feature-settings: 'kern'; 
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+}
+
+main p:not(:last-of-type) {
+  @apply mb-24
+}
+
+main a {
+  @apply underline underline-offset-4 decoration-1 hover:no-underline
+}
+
+strong {
+  @apply font-effra-medium font-medium
+}
