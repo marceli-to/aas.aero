@@ -11,7 +11,7 @@ page_elements:
     elements:
       -
         id: luuzzwwf
-        country_code: CH
+        code: CH
         type: location
         enabled: true
         address:
@@ -54,7 +54,7 @@ page_elements:
                 text: info@shair.aero
       -
         id: luv01e11
-        country_code: DE
+        code: DE
         address:
           -
             type: heading

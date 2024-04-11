@@ -24,7 +24,7 @@ main p:not(:last-of-type) {
 }
 
 main a {
-  @apply underline underline-offset-4 decoration-1 hover:no-underline
+  @apply no-underline hover:text-azure transition-colors
 }
 
 strong {

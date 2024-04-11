@@ -1,12 +1,12 @@
 title: Location
 fields:
   -
-    handle: country_code
+    handle: code
     field:
       input_type: text
       antlers: false
       type: text
-      display: 'Country code'
+      display: 'Code'
       icon: text
       localizable: false
       listable: hidden
