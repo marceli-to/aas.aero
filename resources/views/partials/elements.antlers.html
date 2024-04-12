@@ -5,7 +5,9 @@
 {{ if type == 'page_section' }}
   {{ partial:layout/inner class="first-of-type:pt-16 first-of-type:md:pt-32 first-of-type:lg:pt-48 first-of-type:xl:pt-72" }}
     <div class="col-span-8 md:col-span-12 lg:col-span-3 xl:col-start-3">
-      <h1 class="uppercase tracking-wide text-azure">{{ title }}</h1>
+      <h1 class="font-effra-medium font-medium text-base lg:text-base lg:mb-0 uppercase tracking-wide text-azure">
+        {{ title }}
+      </h1>
     </div>
     <div class="col-span-8 md:col-span-16 lg:col-span-12 xl:col-span-9 xl:col-start-6">
       <div class="sm:grid sm:grid-cols-12 sm:gap-x-16">
@@ -22,5 +24,38 @@
       {{ /elements }}
       </div>
     </div>
+  {{ /partial:layout/inner }}
+{{ /if }}
+
+{{ if type == 'page_section_columns' }}
+  {{ partial:layout/inner class="first-of-type:pt-16 first-of-type:md:pt-32 first-of-type:lg:pt-48 first-of-type:xl:pt-72" }}
+      <div class="mb-64 md:mb-0 col-span-full md:col-span-10 xl:col-span-8 xl:col-start-3">
+        {{ column_left }}
+
+          {{ if type == 'editor' }}
+            {{ partial:components/cards/text }}
+          {{ /if }}
+
+          {{ if type == 'job_widget' }}
+            <h1>Offene Stellen </h1>
+            [Job Widget]
+          {{ /if }}
+
+        {{ /column_left }}
+      </div>
+      <div class="col-span-full sm:col-span-4 md:col-span-6 xl:col-span-3 xl:col-start-12">
+        {{ column_right }}
+          
+            {{ if type == 'editor' }}
+              {{ partial:components/cards/text class="border-t border-t-black pt-16" }}
+            {{ /if }}
+
+            {{ if type == 'video' }}
+              {{ partial:components/cards/video }}
+            {{ /if }}
+
+        {{ /column_right }}
+        
+      </div>
   {{ /partial:layout/inner }}
 {{ /if }}

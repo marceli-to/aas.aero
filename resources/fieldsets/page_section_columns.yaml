@@ -1,0 +1,72 @@
+title: 'Page section columns'
+fields:
+  -
+    handle: column_left
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
+          instructions: null
+          icon: null
+          sets:
+            job_widget:
+              display: 'Job widget'
+              instructions: 'Adds the job widget from join.com'
+              icon: programming-script-code-brackets
+              fields: {  }
+            editor:
+              display: 'Text editor'
+              instructions: 'Adds a text editor.'
+              icon: text-formatting-markdown
+              fields:
+                -
+                  import: editor
+      type: replicator
+      display: 'Column left'
+      icon: replicator
+      localizable: false
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: column_right
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
+          instructions: null
+          icon: null
+          sets:
+            editor:
+              display: 'Text editor'
+              instructions: 'Adds a text editor.'
+              icon: text-formatting-markdown
+              fields:
+                -
+                  import: editor
+            video:
+              display: Video
+              instructions: 'Adds a video.'
+              icon: media-webcam-video
+              fields:
+                -
+                  import: video
+      type: replicator
+      display: 'Column right'
+      icon: replicator
+      localizable: false
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

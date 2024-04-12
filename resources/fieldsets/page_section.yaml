@@ -35,7 +35,7 @@ fields:
                   import: entity
             editor:
               display: 'Text editor'
-              instructions: null
+              instructions: 'Adds a text editor.'
               icon: text-formatting-markdown
               fields:
                 -

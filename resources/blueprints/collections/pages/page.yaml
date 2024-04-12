@@ -35,12 +35,19 @@ tabs:
                   icon: null
                   sets:
                     page_section:
-                      display: 'Page section'
-                      instructions: null
+                      display: 'Page section | 1 column'
+                      instructions: 'Add a page section with 1 column.'
                       icon: layout-split-horizontal
                       fields:
                         -
                           import: page_section
+                    page_section_columns:
+                      display: 'Page section | 2 columns'
+                      instructions: 'Add a page section with 2 columns.'
+                      icon: layout-display-split-quarters
+                      fields:
+                        -
+                          import: page_section_columns
                     fullscreen_image:
                       display: 'Fullscreen image'
                       instructions: null

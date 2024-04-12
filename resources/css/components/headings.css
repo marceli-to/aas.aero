@@ -1,5 +1,5 @@
 h1 {
-  @apply font-effra-medium font-medium mb-24
+  @apply font-effra-regular text-md lg:text-lg mb-24 lg:mb-36
 }
 
 h2 {
