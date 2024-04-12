@@ -6,7 +6,7 @@ fields:
       input_type: text
       antlers: false
       type: text
-      display: 'Code'
+      display: Code
       icon: text
       localizable: false
       listable: hidden
@@ -14,10 +14,8 @@ fields:
       visibility: visible
       replicator_preview: true
       hide_display: false
-      validate:
-        - required
   -
-    handle: address
+    handle: description
     field:
       buttons:
         - h3
@@ -44,7 +42,7 @@ fields:
       collapse: false
       previews: true
       type: bard
-      display: Address
+      display: Description
       icon: bard
       localizable: false
       listable: hidden

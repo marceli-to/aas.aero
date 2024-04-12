@@ -12,7 +12,7 @@ page_elements:
       -
         id: luvgx4zd
         code: ZRH
-        address:
+        description:
           -
             type: heading
             attrs:
@@ -92,12 +92,12 @@ page_elements:
                       target: null
                       title: null
                 text: 'zrh @ aas.aero'
-        type: location
+        type: entity
         enabled: true
       -
         id: luvkcm85
         code: VIE
-        address:
+        description:
           -
             type: heading
             attrs:
@@ -169,12 +169,12 @@ page_elements:
                       target: null
                       title: null
                 text: 'vie @ aas.aero'
-        type: location
+        type: entity
         enabled: true
       -
         id: luvkh0p7
         code: PMI
-        address:
+        description:
           -
             type: heading
             attrs:
@@ -228,7 +228,7 @@ page_elements:
               -
                 type: text
                 text: "\_"
-        type: location
+        type: entity
         enabled: true
   -
     id: luvkm0b9
@@ -237,7 +237,7 @@ page_elements:
       -
         id: luvkm3ys
         code: CH
-        address:
+        description:
           -
             type: heading
             attrs:
@@ -272,12 +272,12 @@ page_elements:
                       target: null
                       title: null
                 text: zrh@aas.aero
-        type: location
+        type: entity
         enabled: true
       -
         id: luvknb4q
         code: AT
-        address:
+        description:
           -
             type: heading
             attrs:
@@ -317,11 +317,146 @@ page_elements:
                       target: null
                       title: null
                 text: vie@aas.aero
-        type: location
+        type: entity
+        enabled: true
+    type: page_section
+    enabled: true
+  -
+    id: luwlc82i
+    title: Sales
+    type: page_section
+    enabled: true
+    elements:
+      -
+        id: luwld5i5
+        description:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'AAS Corporate Services'
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Erik Strandgren'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Chief Commercial Officer'
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: '+41 76 433 74 88'
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:e.strandgren @ aas.aero'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'e.strandgren @ aas.aero'
+        type: entity
+        enabled: true
+  -
+    id: luwlfutj
+    title: 'Communication / Media'
+    elements:
+      -
+        id: luwlfw9p
+        description:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'AAS Corporate Services'
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Nevena Dragosavljevic'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Chief Communications Officer'
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:communication@aas.aero'
+                      rel: null
+                      target: null
+                      title: null
+                text: "communication@aas.aero\_"
+        type: entity
+        enabled: true
+    type: page_section
+    enabled: true
+  -
+    id: luwo090g
+    title: 'Privacy Statement'
+    elements:
+      -
+        id: luwo0dfe
+        description:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'statamic://entry::fba83b6c-0f0f-48e6-9dc0-45ab42811da2'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Privacy Statement'
+        type: entity
         enabled: true
     type: page_section
     enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1712860074
+updated_at: 1712926167
 ---

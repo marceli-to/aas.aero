@@ -1,4 +1,4 @@
-title: Section
+title: 'Page section'
 fields:
   -
     handle: title
@@ -26,13 +26,20 @@ fields:
           instructions: null
           icon: null
           sets:
-            location:
-              display: Location
+            entity:
+              display: Entity
               instructions: null
               icon: form-address-field
               fields:
                 -
-                  import: location
+                  import: entity
+            editor:
+              display: 'Text editor'
+              instructions: null
+              icon: text-formatting-markdown
+              fields:
+                -
+                  import: editor
       type: replicator
       display: Elements
       icon: replicator
