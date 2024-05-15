@@ -14,6 +14,11 @@
         {{ partial:menu/item }}
       {{ /nav:main }}
     </ul>
+    <ul class="flex flex-col gap-y-16 mt-48 text-right lg:hidden">
+      {{ nav:privacy }}
+        {{ partial:menu/item class="text-sm" }}
+      {{ /nav:privacy }}
+    </ul>
     {{ partial:misc/social-media-channels class="hidden lg:flex"}}
   </nav>
 </div>

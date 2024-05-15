@@ -4,7 +4,7 @@ blueprint: page
 title: Career
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1712934067
+updated_at: 1715790434
 page_elements:
   -
     id: luwsjcdu
@@ -67,19 +67,19 @@ page_elements:
         enabled: true
     column_right:
       -
-        id: luwqph7b
-        image: video/check-in-agent-2.jpg
-        type: video
-        enabled: true
+        id: lw80yoko
+        video_file: video/aas.aero-ramploader.mp4
         title: 'Check-In Agent'
         description: 'Oh, hi! We’re just checking in… um zu sehen, ob du vielleicht unser neuer Passenger Service Agent werden möchtest.'
-      -
-        id: luwqshnq
-        image: video/ramp.jpg
         type: video
         enabled: true
-        title: Ramp
+      -
+        id: lw81bflu
+        video_file: video/aas.aero-l-and-f.mp4
+        title: 'Test Title'
         description: 'Oh, hi! We’re just checking in… um zu sehen, ob du vielleicht unser neuer Passenger Service Agent werden möchtest.'
+        type: video
+        enabled: true
       -
         id: luwsezqi
         content:

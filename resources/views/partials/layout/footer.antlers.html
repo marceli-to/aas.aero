@@ -1,1 +1,10 @@
+<footer class="hidden lg:block absolute bottom-16 right-16 z-40 text-white">
+  <nav>
+    <ul class="flex gap-x-16">
+      {{ nav:privacy }}
+        {{ partial:menu/item class="font-effra-regular font-normal {{ !is_homepage ? 'text-black' : 'text-white hover:text-black' }}" }}
+      {{ /nav:privacy }}
+    </ul>
+  </nav>
+</footer>
 {{ vite src="resources/js/app.js" }}

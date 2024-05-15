@@ -9,3 +9,11 @@ h2 {
 h3 {
   @apply font-effra-medium font-medium
 }
+
+.privacy h2 {
+  @apply font-effra-medium font-medium mb-24
+}
+
+.privacy h3 {
+  @apply mb-16
+}

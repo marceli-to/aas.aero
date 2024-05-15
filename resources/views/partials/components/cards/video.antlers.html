@@ -1,20 +1,10 @@
 <article class="pt-16 mt-48 border-t border-t-black first-of-type:!border-0 first-of-type:pt-0 first-of-type:mt-0 last-of-type:mb-48">
-{{ if image }}
-  <figure class="mb-16">
-    <picture>
-      <source media="(min-width: 768px)" srcset="{{ glide:image preset='md-webp' }}" type="image/webp">
-      <source srcset="{{ glide:image preset='sm-webp' }}" type="image/webp">
-      <source media="(min-width: 768px)" srcset="{{ glide:image preset='md' }}" type="image/jpeg">
-      <img 
-        src="{{ glide:image preset='sm' }}" 
-        alt="{{ image:alt }}" 
-        title="{{ image:alt }}" 
-        height="{{ image:height }}" 
-        width="{{ image:width }}"
-        class="block aspect-square w-full h-full object-cover {{ class ?? '' }}"
-        loading="lazy">
-    </picture>
-  </figure>
+{{ if video_file }}
+  <div class="mb-16">
+    <video poster="" preload="none" controls class="aspect-video w-full h-full object-cover {{ class }}">
+      <source src="{{ video_file }}" type="video/mp4">
+    </video>
+  </div>
 {{ /if }}
 {{ if title }}
   <h2 class="font-effra-medium font-medium">{{ title }} </h2>

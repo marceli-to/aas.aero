@@ -8,7 +8,7 @@
         loop 
         class="w-full h-full lg:h-[calc(100vh_-_144px)] object-cover aspect-[3/4] sm:aspect-video lg:aspect-auto" 
         preload="none">
-        <source src="/assets/video/aas-1080p_low.mp4" type="video/mp4">
+        <source src="/assets/video/aas.aero-1080p_low.mp4" type="video/mp4">
       </video>
       <div class="absolute bottom-32 -left-2 lg:left-0 w-full px-16 lg:pl-158 xl:pl-12">
         <div class="xl:grid xl:grid-cols-16 gap-x-16 max-w-site mx-auto">
@@ -21,12 +21,6 @@
     {{ partial:misc/social-media-channels class="mt-28 mx-auto lg:hidden"}}
   </main>
 {{ else }}
-  {{# <main role="main" class="w-full flex-grow max-w-site mx-auto pt-16 md:pt-32 lg:pt-48 xl:pt-72">
-    <div class="grid grid-cols-8 md:grid-cols-16 gap-x-16">
-      {{ template_content }}
-    </div>
-  </main> #}}
-
   <main role="main" class="w-full flex-grow">
     {{ template_content }}
   </main>
