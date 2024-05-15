@@ -36,14 +36,20 @@ strong {
   @apply !p-0
 }
 
-#join-widget > div > a {
-  @apply !shadow-none !px-0 !py-16 !border-b-2 !border-black !mb-16
+#join-widget div[data-testid="EmploymentTypeFilter"] {
+  @apply !hidden
+}
+
+ #join-widget > div > a {
+  @apply !shadow-none !px-0 !py-16 !border-b !rounded-none !border-black !mb-8;
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
 }
 
 #join-widget input {
-  @apply !border !border-black !bg-transparent !rounded-none
+  @apply !border !border-black !bg-transparent !rounded-none !shadow-none;
 }
 
 #join-widget * {
-  @apply text-base font-effra-regular text-black
+  @apply text-base font-effra-regular !text-black
 }
