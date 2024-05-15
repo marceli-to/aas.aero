@@ -4,11 +4,11 @@ blueprint: page
 title: Career
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1715790434
+updated_at: 1715800211
 page_elements:
   -
     id: luwsjcdu
-    image: aas-visual.jpg
+    image: aas.aero-visual-careers.jpg
     type: fullscreen_image
     enabled: true
   -
@@ -73,6 +73,7 @@ page_elements:
         description: 'Oh, hi! We’re just checking in… um zu sehen, ob du vielleicht unser neuer Passenger Service Agent werden möchtest.'
         type: video
         enabled: true
+        poster_image: video/check-in-agent-2.jpg
       -
         id: lw81bflu
         video_file: video/aas.aero-l-and-f.mp4
@@ -80,6 +81,7 @@ page_elements:
         description: 'Oh, hi! We’re just checking in… um zu sehen, ob du vielleicht unser neuer Passenger Service Agent werden möchtest.'
         type: video
         enabled: true
+        poster_image: video/check-in-agent.jpg
       -
         id: luwsezqi
         content:
@@ -245,4 +247,60 @@ page_elements:
                 text: recruitment_zrh@aas.aero
         type: editor
         enabled: true
+  -
+    id: lw86bil1
+    type: alert
+    enabled: true
+    title: |-
+      Career Speed Dating Flughafen Düsseldorf: 
+      Blitzschnell in ein neues Leben einchecken!
+    text:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Am 19. März 2024 laden wir dich zu unserem einzigartigen «Career Speed Dating» ein! In 10 – 15 minütigen Gesprächen kannst du dich vorstellen und deine beruflichen  Möglichkeiten erkunden.'
+      -
+        type: paragraph
+        attrs:
+          class: null
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'DUSconference plus (am Flughafen Düsseldorf)'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Terminal Ring 1, Zentralgebäude'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: '40474 Düsseldorf'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: '19. März, 09.00 – 16.00 Uhr'
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: "Melde dich jetzt an und beschleunige deine Karriere!\_"
+    link: 'https://google.com'
+    link_text: 'Jetzt anmelden'
 ---

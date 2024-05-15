@@ -17,7 +17,7 @@ fields:
   -
     handle: elements
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:

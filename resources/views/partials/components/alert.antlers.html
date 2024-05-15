@@ -1,0 +1,29 @@
+
+<div 
+  x-data="{ showModal: true }" 
+  @click.away="showModal = false" 
+  @keydown.escape="showModal = false">
+  <div class="bg-azure text-white p-16 md:p-24 lg:p-44 fixed z-50 shadow-alert w-full max-w-[92%] overflow-y-auto md:max-w-xl lg:max-w-3xl left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" x-cloak x-show="showModal">
+    <div class="relative">
+      <a href="javascript:;" @click="showModal = false">
+        {{ partial:icons/cross class="absolute -top-4 -right-4 lg:-top-24 lg:-right-24 w-16 h-16 md:w-20 md:h-20 text-white" }}
+      </a>
+      <h1 class="font-effra-medium font-medium leading-[1.2]">
+        {{ title | nl2br }}
+      </h1>
+      {{ text }}
+
+      {{ if link && link_text }}
+        <a 
+          href="{{ link }}" 
+          class="font-effra-regular text-md lg:text-lg text-white hover:text-white hover:no-underline underline underline-offset-4 decoration-2 inline-flex items-center space-x-12 lg:space-x-16 mt-24"
+          target="{{ link | is_external_url ? '_blank' : '_self' }}">
+          {{ partial:icons/arrow class="w-24 lg:w-32 h-auto" }}
+          <span>
+            {{ link_text }}
+          </span>
+        </a>
+      {{ /if }}
+    </div>
+  </div>
+</div>

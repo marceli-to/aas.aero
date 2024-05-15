@@ -14,6 +14,10 @@ export default {
   theme: {
     extend: {
 
+      boxShadow: {
+        'alert': '4px 6px 10px 0px rgba(0,0,0,0.3)',
+      },
+
       screens: {
         'xs': '414px',
       },

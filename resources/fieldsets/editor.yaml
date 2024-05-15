@@ -28,7 +28,7 @@ fields:
       link_noreferrer: false
       target_blank: false
       always_show_set_button: false
-      collapse: false
+      collapse: true
       previews: true
       type: bard
       display: Content

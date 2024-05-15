@@ -25,7 +25,7 @@ tabs:
           -
             handle: page_elements
             field:
-              collapse: false
+              collapse: true
               previews: true
               fullscreen: true
               sets:
@@ -55,6 +55,13 @@ tabs:
                       fields:
                         -
                           import: fullscreen_image
+                    alert:
+                      display: Alert
+                      instructions: 'Add an alert that opens automatically'
+                      icon: align-object-center
+                      fields:
+                        -
+                          import: alert
               type: replicator
               display: Inhalte
               icon: replicator

@@ -3,7 +3,7 @@ fields:
   -
     handle: column_left
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:
@@ -37,7 +37,7 @@ fields:
   -
     handle: column_right
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:

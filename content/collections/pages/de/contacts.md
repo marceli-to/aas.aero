@@ -429,34 +429,7 @@ page_elements:
         enabled: true
     type: page_section
     enabled: true
-  -
-    id: luwo090g
-    title: 'Privacy Statement'
-    elements:
-      -
-        id: luwo0dfe
-        description:
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://entry::fba83b6c-0f0f-48e6-9dc0-45ab42811da2'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Privacy Statement'
-        type: entity
-        enabled: true
-    type: page_section
-    enabled: true
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1715785488
+updated_at: 1715798324
 ---

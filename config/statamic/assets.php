@@ -108,6 +108,16 @@ return [
           '2xl-webp' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           '3xl-webp' => ['w' => 2000, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
 
+          // Visuals
+          'md-visual-webp' => ['w' => 768, 'h' => 432, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'lg-visual-webp' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'xl-visual-webp' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          '2xl-visual-webp' => ['w' => 1600, 'h' => 900, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'md-visual' => ['w' => 768, 'h' => 432, 'q' => 90, 'fit' => 'crop_focal'],
+          'lg-visual' => ['w' => 1280, 'h' => 720, 'q' => 90, 'fit' => 'crop_focal'],
+          'xl-visual' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop_focal'],
+          '2xl-visual' => ['w' => 1600, 'h' => 900, 'q' => 90, 'fit' => 'crop_focal'],
+
           'xs' => ['w' => 320, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           'sm' => ['w' => 480, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           'md' => ['w' => 768, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
