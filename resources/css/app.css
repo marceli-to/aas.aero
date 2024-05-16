@@ -53,3 +53,20 @@ strong {
 #join-widget * {
   @apply text-base font-effra-regular !text-black
 }
+
+#join-widget .markup,
+#join-widget .markup a {
+  @apply !text-sm
+}
+
+#join-widget div[data-testid="PrevPage"],
+#join-widget div[data-testid="NextPage"],
+#join-widget div[data-testid="Page"] {
+  @apply !bg-transparent !border-none !opacity-100
+}
+
+#join-widget div[data-testid="PrevPage"] svg,
+#join-widget div[data-testid="NextPage"] svg,
+#join-widget div[data-testid="Page"] svg {
+  @apply !fill-current
+}
