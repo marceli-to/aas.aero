@@ -4,7 +4,7 @@ blueprint: page
 title: Career
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1715800211
+updated_at: 1715867474
 page_elements:
   -
     id: luwsjcdu
@@ -263,28 +263,6 @@ page_elements:
           -
             type: text
             text: 'Am 19. März 2024 laden wir dich zu unserem einzigartigen «Career Speed Dating» ein! In 10 – 15 minütigen Gesprächen kannst du dich vorstellen und deine beruflichen  Möglichkeiten erkunden.'
-      -
-        type: paragraph
-        attrs:
-          class: null
-      -
-        type: paragraph
-        attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'DUSconference plus (am Flughafen Düsseldorf)'
-          -
-            type: hardBreak
-          -
-            type: text
-            text: 'Terminal Ring 1, Zentralgebäude'
-          -
-            type: hardBreak
-          -
-            type: text
-            text: '40474 Düsseldorf'
       -
         type: paragraph
         attrs:
