@@ -23,6 +23,8 @@ public/.htaccess
 INSTALL.txt
 
 public/assets
+public/img
 resources/users
 users
 storage/forms/contact_form
+content
