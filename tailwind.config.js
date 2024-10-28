@@ -56,6 +56,10 @@ export default {
       colors: {
         'azure': '#0086C5',
       },
+
+      textUnderlineOffset: {
+        '3': '0.1875rem',
+      },
       
     },
 
