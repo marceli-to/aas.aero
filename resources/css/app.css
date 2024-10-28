@@ -28,7 +28,7 @@ main a {
 }
 
 strong {
-  @apply font-effra-medium font-medium
+  @apply font-effra-medium font-medium text-azure
 }
 
 /* Join Widget */

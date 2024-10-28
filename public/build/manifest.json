@@ -1,8 +1,24 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-14516fcb.css",
+    "file": "assets/app-020126ad.css",
     "isEntry": true,
     "src": "resources/css/app.css"
+  },
+  "resources/css/fonts/Effra_W_Md.woff": {
+    "file": "assets/Effra_W_Md-1df2a427.woff",
+    "src": "resources/css/fonts/Effra_W_Md.woff"
+  },
+  "resources/css/fonts/Effra_W_Md.woff2": {
+    "file": "assets/Effra_W_Md-20376f9f.woff2",
+    "src": "resources/css/fonts/Effra_W_Md.woff2"
+  },
+  "resources/css/fonts/Effra_W_Rg.woff": {
+    "file": "assets/Effra_W_Rg-1697f84e.woff",
+    "src": "resources/css/fonts/Effra_W_Rg.woff"
+  },
+  "resources/css/fonts/Effra_W_Rg.woff2": {
+    "file": "assets/Effra_W_Rg-2201a6a1.woff2",
+    "src": "resources/css/fonts/Effra_W_Rg.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-154cb3de.js",
