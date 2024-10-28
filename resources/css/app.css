@@ -27,6 +27,10 @@ main a {
   @apply no-underline hover:text-azure transition-colors
 }
 
+main .content-container a {
+  @apply underline underline-offset-4 decoration-1 hover:no-underline
+}
+
 strong {
   @apply font-effra-medium font-medium text-azure
 }
