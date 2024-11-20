@@ -1,7 +1,7 @@
 <article class="pt-16 mt-48 border-t border-t-black first-of-type:!border-0 first-of-type:pt-0 first-of-type:mt-0 last-of-type:mb-48">
 {{ if video_file }}
   <div class="mb-16">
-    <video poster="{{ poster_image ? poster_image : ''}}" preload="none" controls class="aspect-video w-full h-full object-cover {{ class }}">
+    <video poster="{{ poster_image ? poster_image : ''}}" preload="none" controls class="aspect-video w-full h-dvh object-cover {{ class }}">
       <source src="{{ video_file }}" type="video/mp4">
     </video>
   </div>
