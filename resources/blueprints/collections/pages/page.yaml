@@ -14,35 +14,27 @@ tabs:
               validate:
                 - required
               display: Titel
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              input_type: text
-              antlers: false
-              hide_display: false
               localizable: true
           -
             handle: page_elements
             field:
               collapse: true
-              previews: true
-              fullscreen: true
+              type: replicator
+              display: Inhalte
+              localizable: true
               sets:
                 content_elements:
                   display: 'Content elements'
-                  instructions: null
-                  icon: null
                   sets:
                     page_section:
-                      display: 'Page section | 1 column'
+                      display: 'Page section (1 column)'
                       instructions: 'Add a page section with 1 column.'
                       icon: layout-split-horizontal
                       fields:
                         -
                           import: page_section
                     page_section_columns:
-                      display: 'Page section | 2 columns'
+                      display: 'Page section (2 columns)'
                       instructions: 'Add a page section with 2 columns.'
                       icon: layout-display-split-quarters
                       fields:
@@ -50,7 +42,6 @@ tabs:
                           import: page_section_columns
                     fullscreen_image:
                       display: 'Fullscreen image'
-                      instructions: null
                       icon: media-image-picture-orientation
                       fields:
                         -
@@ -62,15 +53,6 @@ tabs:
                       fields:
                         -
                           import: alert
-              type: replicator
-              display: Inhalte
-              icon: replicator
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              localizable: true
   seo:
     display: SEO
     sections:
@@ -98,14 +80,7 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              from: title
-              generate: true
               show_regenerate: true
-              hide_display: false
           -
             handle: parent
             field:
